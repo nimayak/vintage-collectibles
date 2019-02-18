@@ -1,0 +1,533 @@
+/* global page styles */
+body {
+  text-align:center;
+  font-family:'Lora', serif;
+  font-size:20px;
+  color:#333;
+  margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+div{
+	width:960px;
+	margin: 0px auto;
+}
+
+
+
+header, section, footer {
+  padding:60px 0px;
+}
+
+
+.button {
+  font-weight:bold;
+}
+
+section h2 {
+	font-size: 32px;
+}
+
+
+/* navbar */
+
+section.navbar {
+	padding: 55px 0px;
+}
+
+.navbar {
+	background-color:#fff;
+	position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+.navbar a {
+  color:#000;
+}
+
+h1 {
+  font-family:'Sacramento', cursive;
+  font-size:50px;
+  font-weight:normal;
+  line-height:30px;
+  position: fixed;
+  top: 0px;
+  left: 30px;
+/*   text-shadow: 1px 2px 3px #000, 1px 2px 3px #000; */
+
+}
+
+.navbar nav {
+  line-height:30px;
+  text-align:right;
+  position: fixed;
+  top:25px;
+  right: 0px;
+
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline;
+	margin-right: 30px;
+}
+
+/* header */
+
+header {
+  background-color:#D7CEC7;
+  background-image: url( header_background.png ), url(parchment.jpg);
+  background-attachment: fixed, absolute;
+  background-position: center,center; 
+  background-repeat: no-repeat, no-repeat; 
+  color:#fff;
+  padding:240px 0;
+  text-shadow: 1px 2px 3px #000;
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 100px;
+
+	
+}
+
+header h2 {
+  font-size:48px;
+  text-shadow: 1px 2px 3px #000;
+	
+  }
+
+header .button {
+  color:#fff;
+}
+
+header .button{
+	border: 1px solid white;
+	padding: 5px 30px;
+	border-radius: 30px;
+	transition: 0.25s;
+}
+
+header .button:hover{
+	background: white;
+	color: #000;
+	text-decoration: none;
+}
+
+/* oldnavbar */
+
+/* 
+header a {
+  color:#fff;
+}
+
+header nav {
+  line-height:30px;
+  text-align:right;
+  position: fixed;
+  top:10px;
+  right: 0px;
+
+}
+
+
+header nav ul{
+	list-style: none;
+}
+
+header nav li{
+	display: inline;
+	margin-right: 30px;
+}
+
+header nav a {
+  font-weight:bold;
+}
+ */
+
+
+/* intro */
+
+#intro h3 {
+  font-size:32px;
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#intro h3::after{
+	content: "";
+	display:block;
+	border: 1px solid black;
+	width: 100px;
+	margin: 1em auto;
+}
+
+/* image 01 The Lady */
+
+#image01 img {
+	max-width:450px; 
+	height: auto;
+	margin-left: -250px;
+}
+
+#image01{
+
+	overflow: hidden;
+	background-color:#069;
+	color:#fff;
+	background-image: url( Background01.png);
+	background-size: auto 120%, cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+
+}
+
+#image01 p{
+	font-size:24px;
+	float: right;
+	margin: auto;
+	margin-right: -150px;
+	margin-top: 100px;
+	width: 700px;
+
+}
+
+#image01 h2 {
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+	
+}
+
+/* image 02 The Companion */
+
+#image02 img {
+	max-width:450px; 
+	height: auto;
+	margin-right: -250px;
+}
+
+#image02{
+	overflow: hidden;
+	background-color:navajowhite;
+	color:#fff;
+	background-image: url( Background02.png );
+	background-size: auto 125%, cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	background-blend-mode: multiply;
+
+}
+
+#image02 p{
+	font-size:24px;
+	float: left;
+	margin: auto;
+	margin-left: -150px;
+	margin-top: 100px;
+	width: 700px;
+
+}
+
+#image02 h2 {
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+	
+}
+
+/* image 03 The Princess */
+
+#image03 img {
+	max-width:450px; 
+	height: auto;
+	margin-left: -250px;
+}
+
+#image03{
+
+	overflow: hidden;
+	background-color:darkorchid;
+	color:#fff;
+	background-image: url( Background03.png );
+	background-size: auto 125%, cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+#image03 p{
+	font-size:24px;
+	float: RIGHT;
+	margin: auto;
+	margin-right: -150px;
+	margin-top: 100px;
+	width: 700px;
+	color:black;
+}
+
+#image03 h2 {
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+	
+}
+
+/* image 04 The Wizard */
+
+#image04 img {
+	max-width:450px; 
+	height: auto;
+	margin-right: -250px;
+}
+
+#image04{
+	overflow: hidden;
+	background-color:darkgray;
+	color:#000;
+	background-image: url( Background04.png );
+	background-size: auto 125%, cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	background-blend-mode: multiply;
+
+}
+
+#image04 p{
+	font-size:24px;
+	float: left;
+	margin: auto;
+	margin-left: -150px;
+	margin-top: 100px;
+	width: 700px;
+	
+	color:white;
+
+}
+
+#image04 h2 {
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+	color:white;
+	
+}
+
+/* image 05 Hero */
+
+#image05 img {
+	max-width:450px; 
+	height: auto;
+	margin-left: -250px;
+}
+
+
+#image05{
+	overflow: hidden;
+	background-color:#76323F;
+	background-image: url( Background05.png );
+	background-size: auto 125%, cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:#fff;
+
+}
+
+#image05 p{
+	font-size:24px;
+	float: RIGHT;
+	margin: auto;
+	margin-right: -150px;
+	margin-top: 100px;
+	width: 700px;
+
+}
+
+#image05 h2 {
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+	
+}
+
+/* image 06 Hero 2*/
+
+#image06 img {
+	max-width:450px; 
+	height: auto;
+	margin-right: -250px;
+}
+
+
+#image06{
+	overflow: hidden;
+	background-color:#C09F80;
+	background-image: url( Background06.png );
+	background-size: auto 125%, cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:#fff;
+
+}
+
+#image06 p{
+	font-size:24px;
+	float: left;
+	margin: auto;
+	margin-left: -150px;
+	margin-top: 100px;
+	width: 700px;
+
+}
+
+#image06 h2 {
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+	
+}
+
+/* image 07 Gossip*/
+
+#image07 img {
+	max-width:450px; 
+	height: auto;
+	margin-left: -250px;
+}
+
+
+#image07{
+	overflow: hidden;
+	background-color:#565656;
+	background-image: url( Background07.png );
+	background-size: auto 125%, cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:#fff;
+
+}
+
+#image07 p{
+	font-size:24px;
+	float: RIGHT;
+	margin: auto;
+	margin-right: -150px;
+	margin-top: 100px;
+	width: 700px;
+
+}
+
+#image07 h2 {
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+	
+}
+
+/* image 08 Gossip 2*/
+
+#image08 img {
+	max-width:450px; 
+	height: auto;
+	margin-right: -250px;
+}
+
+
+#image08{
+	overflow: hidden;
+	background-color:gainsboro;
+	background-image: url( Background08.png );
+	background-size: auto 125%, cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:#fff;
+	background-blend-mode: multiply;
+	
+		
+
+}
+
+#image08 p{
+	font-size:24px;
+	float: left;
+	margin: auto;
+	margin-left: -150px;
+	margin-top: 100px;
+	width: 700px;
+
+}
+
+#image08 h2 {
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+	
+}
+
+/* about */
+
+#about h3 {
+  font-size:32px;
+	
+  float:inherit;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#about h3::after{
+	content: "";
+	display:block;
+	border: 1px solid black;
+	width: 100px;
+	margin: 1em auto;
+}
+
+
+/* footer */
+footer {
+  background-color:#565656;
+  color:#fff;
+}
+
+footer h6 {
+  font-family:'Sacramento', cursive;
+  font-size:50px;
+  font-weight:normal;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+footer a {
+  color:#fff;
+}
